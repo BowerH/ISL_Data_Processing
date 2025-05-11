@@ -1,0 +1,23 @@
+name: PA_analysis_env
+channels:
+  - conda-forge
+  - bioconda
+  - defaults
+dependencies:
+  - python=3.9
+  - pandas
+  - matplotlib
+  - seaborn
+  - biopython
+  - ggcaller
+  - r-base=4.2
+  - bioconductor-ggtree
+  - bioconductor-complexheatmap
+  - r-ape
+  - r-dplyr
+  - r-tibble
+  - r-tidyr
+  - r-ggplot2
+  - r-ggnewscale
+  - r-rcolorbrewer
+  - r-cowplot
